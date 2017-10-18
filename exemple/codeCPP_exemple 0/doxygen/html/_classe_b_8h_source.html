@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>Exemple 0:  Fichier source de R:/06 - C++/dia2codePerso/exemple/codeCPP_exemple 0/include/ClasseB.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Exemple 0
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+   <div id="projectbrief">Aide generée depuis les fichiers générés avec dia2code.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_classe_b_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">ClasseB.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_classe_b_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef CLASSEB__H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define CLASSEB__H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Headers</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"></span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics.hpp&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class </span><a class="code" href="class_classe_c.html">ClasseC</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_classe_b.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_classe_b.html">ClasseB</a> {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">// Méthodes</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_classe_b.html#afb3481ca82106d2fe5c74a78572f35ea">   30</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_classe_b.html#afb3481ca82106d2fe5c74a78572f35ea">ajouterAMachins</a> ( <span class="keywordtype">int</span> nouvelElement ){ <a class="code" href="class_classe_b.html#aa3f7c2728a5d1e74fd8908f68470c3f0">m_machins</a>.push_back( nouvelElement ); };</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_classe_b.html#a1d800490c1cb24dfaf09ad45d89ce643">   33</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_classe_b.html#a1d800490c1cb24dfaf09ad45d89ce643">retirerAMachins</a> ( <span class="keywordtype">int</span> <span class="keywordtype">id</span> ) { <span class="keywordflow">if</span> ( <span class="keywordtype">id</span>&gt;=0 || <span class="keywordtype">id</span>&lt;<a class="code" href="class_classe_b.html#aa3f7c2728a5d1e74fd8908f68470c3f0">m_machins</a>.size() ) <a class="code" href="class_classe_b.html#aa3f7c2728a5d1e74fd8908f68470c3f0">m_machins</a>.erase( <a class="code" href="class_classe_b.html#aa3f7c2728a5d1e74fd8908f68470c3f0">m_machins</a>.begin() + id ); };</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_classe_b.html#a841d595a510b366b19a2b5f29fcfd305">   36</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_classe_b.html#a841d595a510b366b19a2b5f29fcfd305">viderMachins</a> () { <a class="code" href="class_classe_b.html#aa3f7c2728a5d1e74fd8908f68470c3f0">m_machins</a>.clear(); };</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_classe_b.html#ae6f6d18f9996ba78e35363b04c17058b">   39</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_classe_b.html#ae6f6d18f9996ba78e35363b04c17058b">getMachins</a> ( <span class="keywordtype">int</span> <span class="keywordtype">id</span> )<span class="keyword"> const </span>{ <span class="keywordflow">if</span> ( <span class="keywordtype">id</span>&gt;=0 || <span class="keywordtype">id</span>&lt;<a class="code" href="class_classe_b.html#aa3f7c2728a5d1e74fd8908f68470c3f0">m_machins</a>.size() )  <span class="keywordflow">return</span> <a class="code" href="class_classe_b.html#aa3f7c2728a5d1e74fd8908f68470c3f0">m_machins</a>.at( <span class="keywordtype">id</span> ); <span class="keywordflow">else</span> <span class="keywordflow">return</span> 0; };</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_classe_b.html#ace86bbd0eef55f4782a1d44c5192d896">   42</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_classe_b.html#ace86bbd0eef55f4782a1d44c5192d896">setAttr_B1</a>( <span class="keywordtype">float</span> val ){ <a class="code" href="class_classe_b.html#a3db1ea15c88b64e3e428e2b22416af39">m_attr_B1</a> = val; };</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_classe_b.html#a03fd13c0dad76d6436faa22c6f7e94ec">   45</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_classe_b.html#a03fd13c0dad76d6436faa22c6f7e94ec">getAttr_B1</a> ()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code" href="class_classe_b.html#a3db1ea15c88b64e3e428e2b22416af39">m_attr_B1</a>; };</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_classe_b.html#a4a2e82d68664a57ad9f922543e2eed18">operation_B1</a> ();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">// Membres</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment"></span><span class="keyword">public</span>:</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="class_classe_b.html#aa3f7c2728a5d1e74fd8908f68470c3f0">   60</a></span>&#160;    std::vector&lt;int&gt; <a class="code" href="class_classe_b.html#aa3f7c2728a5d1e74fd8908f68470c3f0">m_machins</a>;    </div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="class_classe_b.html#a23514f02a80438f4ea56e8dfc6efbdfd">   61</a></span>&#160;    sf::FloatRect <a class="code" href="class_classe_b.html#a23514f02a80438f4ea56e8dfc6efbdfd">m_TrucSFML</a>;    </div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="class_classe_b.html#ad3e8fc2038d1aebf65a7a0df2bb4fc78">   62</a></span>&#160;    std::shared_ptr&lt;ClasseC&gt; <a class="code" href="class_classe_b.html#ad3e8fc2038d1aebf65a7a0df2bb4fc78">m_classeC</a>;    </div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="class_classe_b.html#a3db1ea15c88b64e3e428e2b22416af39">   63</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_classe_b.html#a3db1ea15c88b64e3e428e2b22416af39">m_attr_B1</a>;    </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}; <span class="comment">// fin class ClasseB</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="class_classe_b_html"><div class="ttname"><a href="class_classe_b.html">ClasseB</a></div><div class="ttdoc">associé avec le type: &#39;Aggregation&#39;. Créer l&#39;attribut dans un shared_ptr. En mettant #G ou #S dans le...</div><div class="ttdef"><b>Definition:</b> ClasseB.h:20</div></div>
+<div class="ttc" id="class_classe_b_html_aa3f7c2728a5d1e74fd8908f68470c3f0"><div class="ttname"><a href="class_classe_b.html#aa3f7c2728a5d1e74fd8908f68470c3f0">ClasseB::m_machins</a></div><div class="ttdeci">std::vector&lt; int &gt; m_machins</div><div class="ttdoc">#A#R#V#G </div><div class="ttdef"><b>Definition:</b> ClasseB.h:60</div></div>
+<div class="ttc" id="class_classe_b_html_afb3481ca82106d2fe5c74a78572f35ea"><div class="ttname"><a href="class_classe_b.html#afb3481ca82106d2fe5c74a78572f35ea">ClasseB::ajouterAMachins</a></div><div class="ttdeci">void ajouterAMachins(int nouvelElement)</div><div class="ttdoc">< Ajouter un élement dans m_machins </div><div class="ttdef"><b>Definition:</b> ClasseB.h:30</div></div>
+<div class="ttc" id="class_classe_b_html_a3db1ea15c88b64e3e428e2b22416af39"><div class="ttname"><a href="class_classe_b.html#a3db1ea15c88b64e3e428e2b22416af39">ClasseB::m_attr_B1</a></div><div class="ttdeci">float m_attr_B1</div><div class="ttdoc">Attribut direct dans les propriétés de ClasseB. #G pour ajouter une fonction get et #S pour set...</div><div class="ttdef"><b>Definition:</b> ClasseB.h:63</div></div>
+<div class="ttc" id="class_classe_b_html_a4a2e82d68664a57ad9f922543e2eed18"><div class="ttname"><a href="class_classe_b.html#a4a2e82d68664a57ad9f922543e2eed18">ClasseB::operation_B1</a></div><div class="ttdeci">bool operation_B1()</div><div class="ttdoc">operation simple </div><div class="ttdef"><b>Definition:</b> ClasseB.cpp:8</div></div>
+<div class="ttc" id="class_classe_b_html_a1d800490c1cb24dfaf09ad45d89ce643"><div class="ttname"><a href="class_classe_b.html#a1d800490c1cb24dfaf09ad45d89ce643">ClasseB::retirerAMachins</a></div><div class="ttdeci">void retirerAMachins(int id)</div><div class="ttdoc">retirer l&#39;élement à la position id dans m_machins </div><div class="ttdef"><b>Definition:</b> ClasseB.h:33</div></div>
+<div class="ttc" id="class_classe_b_html_a23514f02a80438f4ea56e8dfc6efbdfd"><div class="ttname"><a href="class_classe_b.html#a23514f02a80438f4ea56e8dfc6efbdfd">ClasseB::m_TrucSFML</a></div><div class="ttdeci">sf::FloatRect m_TrucSFML</div><div class="ttdoc">Un peu tricky : le type comprte "sf::" on include donc &#39;SFML/Graphics.hpp&#39;. </div><div class="ttdef"><b>Definition:</b> ClasseB.h:61</div></div>
+<div class="ttc" id="class_classe_b_html_a841d595a510b366b19a2b5f29fcfd305"><div class="ttname"><a href="class_classe_b.html#a841d595a510b366b19a2b5f29fcfd305">ClasseB::viderMachins</a></div><div class="ttdeci">void viderMachins()</div><div class="ttdoc">Vider m_machins. </div><div class="ttdef"><b>Definition:</b> ClasseB.h:36</div></div>
+<div class="ttc" id="class_classe_b_html_ad3e8fc2038d1aebf65a7a0df2bb4fc78"><div class="ttname"><a href="class_classe_b.html#ad3e8fc2038d1aebf65a7a0df2bb4fc78">ClasseB::m_classeC</a></div><div class="ttdeci">std::shared_ptr&lt; ClasseC &gt; m_classeC</div><div class="ttdoc">ceci ajoute l&#39;include &#39;memory&#39;, definie temporairement la ClassC dans le *.h, et include ClasseC dans...</div><div class="ttdef"><b>Definition:</b> ClasseB.h:62</div></div>
+<div class="ttc" id="class_classe_b_html_a03fd13c0dad76d6436faa22c6f7e94ec"><div class="ttname"><a href="class_classe_b.html#a03fd13c0dad76d6436faa22c6f7e94ec">ClasseB::getAttr_B1</a></div><div class="ttdeci">float getAttr_B1() const </div><div class="ttdoc">Acceder à m_attr_B1. </div><div class="ttdef"><b>Definition:</b> ClasseB.h:45</div></div>
+<div class="ttc" id="class_classe_c_html"><div class="ttname"><a href="class_classe_c.html">ClasseC</a></div><div class="ttdoc">ici on associe 2 stereotypes : un using et un enum </div><div class="ttdef"><b>Definition:</b> ClasseC.h:19</div></div>
+<div class="ttc" id="class_classe_b_html_ae6f6d18f9996ba78e35363b04c17058b"><div class="ttname"><a href="class_classe_b.html#ae6f6d18f9996ba78e35363b04c17058b">ClasseB::getMachins</a></div><div class="ttdeci">int getMachins(int id) const </div><div class="ttdoc">Accesseur à l&#39;élément de m_machins désigné par un id. </div><div class="ttdef"><b>Definition:</b> ClasseB.h:39</div></div>
+<div class="ttc" id="class_classe_b_html_ace86bbd0eef55f4782a1d44c5192d896"><div class="ttname"><a href="class_classe_b.html#ace86bbd0eef55f4782a1d44c5192d896">ClasseB::setAttr_B1</a></div><div class="ttdeci">void setAttr_B1(float val)</div><div class="ttdoc">Definir m_attr_B1. </div><div class="ttdef"><b>Definition:</b> ClasseB.h:42</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="_classe_b_8h.html">ClasseB.h</a></li>
+    <li class="footer">Généré par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
+  </ul>
+</div>
+</body>
+</html>
